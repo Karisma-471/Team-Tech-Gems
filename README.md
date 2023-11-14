@@ -46,7 +46,7 @@ To create and switch into a branch in Git, you can use the following command:
 See below for the landing page design to be worked on and begin implementing your part of the project.
 Make sure to refer to the design and use it as a guideline for your implementation.
 
-![Tech-Gems Landing Page Design](https://www.behance.net/gallery/165647389/simple-landing-page)
+https://www.behance.net/gallery/165647389/simple-landing-page
 
 ## Step 5: Stage, Commit & Push Your Work
 
