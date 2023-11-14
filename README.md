@@ -1,4 +1,4 @@
-## Guide to Contributing to the Tech-Gems Landing Page
+## Guidelines to Contributing to the Tech-Gems Landing Page
 
 This README is a guide. 
 It provides a step-by-step outline on how to contribute to the development of this project.
@@ -42,9 +42,11 @@ Make sure to refer to the design and use it as a guideline for your implementati
 Once you are done with your part of the design, commit your chnages to your branch. 
 Simply follow these commands to do so easily:
 
-``git add . <br>
-  git commit -m "A very descriptive commit message" <br>
-  git push origin branch-name``
+``git add .``
+
+``git commit -m "A very descriptive commit message"`` 
+ 
+``git push origin branch-name``
 
 ## Step 6: Create a Pull Request (PR)
 
