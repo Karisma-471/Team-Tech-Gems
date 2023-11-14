@@ -1,8 +1,8 @@
-## Guidelines to Contributing to the Tech-Gems Landing Page
+## Guidelines for Contributing to the Tech-Gems Landing Page
 
 
 This README is a guide. 
-It provides a step-by-step outline on how to contribute to the development of this project.
+It provides a step-by-step outline of how to contribute to the development of this project.
 
 
 ## Instructions
@@ -29,7 +29,7 @@ After forking, copy and clone the forked repository to your local machine using 
 ## Step 3: Create a Branch
 
 
-After cloning the repository on your local machine, change directory into Team-Tech-Gems:
+After cloning the repository on your local machine, change the directory to Team-Tech-Gems:
 
 ``cd Team-Tech-Gems``
 
@@ -50,7 +50,7 @@ Make sure to refer to the design and use it as a guideline for your implementati
 
 ## Step 5: Stage, Commit & Push Your Work
 
-Once you are done with your part of the design, commit your chnages to your branch. 
+Once you are done with your part of the design, commit your changes to your branch. 
 Simply follow these commands to do so easily:
 
 ``git add .``
