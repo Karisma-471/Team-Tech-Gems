@@ -1,4 +1,58 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #dfdfdf;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #252424;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+}
+
+#icons {
+    padding-right: 200px;
+}
+
+#logo {
+    padding-left: 100px;
+}
+
+.svg {
+    fill: white;
+}
+
+.sort {
+    transform: rotate(360deg);
+    margin-right: 20px;
+}
+
+.circle {
+    height: 500px;
+    width: 750px;
+    background-color: #a2a4b3;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    top: ;
+    right: 10px;
+    overflow: hidden;
 }
