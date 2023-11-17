@@ -106,7 +106,7 @@ ul {
 }
 
 .chair {
-    position: absolute;
+    position: relative;
     top: 30px;
     margin-left: 100px;
 }
