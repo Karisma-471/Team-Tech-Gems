@@ -96,3 +96,17 @@ ul {
     text-decoration: none;
     color:rgb(19, 110, 19);
   }
+
+  .light {
+    height: 300px;
+    background-color: none;
+    margin-left: 110px;
+    margin-top: 50px;
+
+}
+
+.chair {
+    position: absolute;
+    top: 30px;
+    margin-left: 100px;
+}
