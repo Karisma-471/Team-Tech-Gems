@@ -60,6 +60,7 @@ ul {
     overflow: hidden;
 }
 
+    /* main section (images and text) */
   .content {
     position: absolute;
     left: 23rem;
@@ -71,25 +72,26 @@ ul {
    
   }
 
-  .content h1 {
+  .content h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
+    font-size: 25px;
     color: rgb(19, 110, 19);
   }
 
-  .content h3 {
+  .content h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(31, 30, 30);
+    line-height: 0.5px;
   }
 
   .content button {
-    width: 150px;
+    margin-top: 50px;
+    width: 110px;
     border: 2px solid rgb(19, 110, 19);
     border-radius: 30px;
-    height: 50px;
-    font-size: 18px;
+    height: 35px;
+    font-size: 16px;
     font-weight: bold;
     box-shadow:  -1px 1px 8px rgb(19, 110, 19),
                -6px 6px 8px #ffffff;
@@ -102,8 +104,7 @@ ul {
 
   .flex-container {
     display: flex;
-    
-  }
+}
 
   .light {
     height: 350px;
@@ -119,5 +120,4 @@ ul {
     top: 200px;
     left: -50px;
     height: 190px;
-     
 }
