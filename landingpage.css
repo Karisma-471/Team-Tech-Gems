@@ -60,35 +60,37 @@ ul {
     top: -400px;
 }
 
+    /* main section (images and text) */
   .content {
-   text-align: center;
-   align-content: center;
-   padding: 20px;
-   margin: 50px;
-   border: 0px;
-   position: relative;
-   min-height: 80vh;
-  }
-
-  .content h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
-    color: rgb(19, 110, 19);
+    position: absolute;
+    left: 23rem;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+    margin: 50px;
+    border: 0px;
   }
 
   .content h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(19, 110, 19);
+  }
+
+  .content h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(31, 30, 30);
+    line-height: 0.5px;
   }
 
   .content button {
-    width: 150px;
+    margin-top: 50px;
+    width: 110px;
     border: 2px solid rgb(19, 110, 19);
     border-radius: 30px;
-    height: 50px;
-    font-size: 18px;
+    height: 35px;
+    font-size: 16px;
     font-weight: bold;
     box-shadow:  -1px 1px 8px rgb(19, 110, 19),
                -6px 6px 8px #ffffff;
@@ -99,25 +101,23 @@ ul {
     color:rgb(19, 110, 19);
   }
 
+  .flex-container {
+    display: flex;
+}
+
   .light {
-    height: 300px;
+    height: 350px;
     background-color: none;
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    height: auto;
-    left: 8%;
-    z-index: -1;
-    
+    margin-left: 115px;
+    margin-top: 45px;
+
 }
 
 .chair-img {
-    position: absolute;
-    bottom: 5px;
-    width: 200px;
-    height: auto;
-    left: 25%;
-    z-index: -1;
+    position: relative;
+    top: 220px;
+    margin-left: 5px;
+    bottom: 0;
 }
 
 #footnav {
@@ -132,5 +132,10 @@ ul {
     text-decoration: none;
     color: #252424;
     font-size: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    color:rgb(19, 110, 19);
     font-weight: 600;
 }
